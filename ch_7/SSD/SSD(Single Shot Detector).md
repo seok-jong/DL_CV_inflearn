@@ -136,7 +136,7 @@ GT와 Default box간의 IoU가 특정값(0.5)이상일 경우에만 고려하여
 
 ### Loss 함수
 
-![스크린샷 2022-05-18 13.50.26.png](SSD(Single%20Shot%20Detector)%2057486583efb44ab4a77ab93e8a810d34/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-05-18_13.50.26.png)
+![스크린샷 2022-05-18 13.50.26.png](https://github.com/seok-jong/DL_CV_inflearn/blob/master/ch_7/SSD/SSD(Single%20Shot%20Detector)%2057486583efb44ab4a77ab93e8a810d34/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2022-05-18_13.50.26.png?raw=true)
 
 Loss함수의 경우 위와같이 구성되어 있으며 Classifcation과 Regression의 Loss함수를 각각 더하여 N(Match된 Default box 갯수)으로 나누어 정규화 작업후에 최종적인 Loss값을 Return하게 된다.
 
