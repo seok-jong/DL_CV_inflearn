@@ -65,3 +65,6 @@ Focal Loss는 Cross Entropy에 $(1-p_{i})^{\gamma}$수식만 붙힌 형태이다
 ![Untitled](RetinaNet%2066449fc824334333ac7ffec737b39d64/Untitled%204.png)
 
 ## Feature Pyramid Network
+
+
+
